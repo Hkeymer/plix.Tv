@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/plixtv/static/css/main.7274b65c.css",
+    "main.js": "/plixtv/static/js/main.2749c75d.js",
+    "static/media/poster.jpg": "/plixtv/static/media/poster.e1d1973578dc15a5911c.jpg",
+    "index.html": "/plixtv/index.html",
+    "main.7274b65c.css.map": "/plixtv/static/css/main.7274b65c.css.map",
+    "main.2749c75d.js.map": "/plixtv/static/js/main.2749c75d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7274b65c.css",
+    "static/js/main.2749c75d.js"
+  ]
+}
