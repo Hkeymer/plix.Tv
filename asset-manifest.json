@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/plixTv/static/css/main.7274b65c.css",
-    "main.js": "/plixTv/static/js/main.b83f86e4.js",
-    "static/media/poster.jpg": "/plixTv/static/media/poster.e1d1973578dc15a5911c.jpg",
-    "index.html": "/plixTv/index.html",
-    "main.7274b65c.css.map": "/plixTv/static/css/main.7274b65c.css.map",
-    "main.b83f86e4.js.map": "/plixTv/static/js/main.b83f86e4.js.map"
+    "main.css": "/plix.Tv/static/css/main.7274b65c.css",
+    "main.js": "/plix.Tv/static/js/main.14e47ffd.js",
+    "static/media/poster.jpg": "/plix.Tv/static/media/poster.e1d1973578dc15a5911c.jpg",
+    "index.html": "/plix.Tv/index.html",
+    "main.7274b65c.css.map": "/plix.Tv/static/css/main.7274b65c.css.map",
+    "main.14e47ffd.js.map": "/plix.Tv/static/js/main.14e47ffd.js.map"
   },
   "entrypoints": [
     "static/css/main.7274b65c.css",
-    "static/js/main.b83f86e4.js"
+    "static/js/main.14e47ffd.js"
   ]
 }
