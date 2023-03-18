@@ -1,0 +1,36 @@
+
+.conten{
+    width:100%;
+    margin: 70px auto;
+}
+
+.Grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,205px);
+    padding: 0;
+    gap: 5px;
+    margin: 0;
+    justify-content: center;
+ }
+
+
+a{
+    text-decoration: none;
+    color: #aaa;
+  }
+
+
+  @media screen and (max-width:740px){
+    .conten{
+       margin-top: 10px;
+    }
+ }
+
+@media screen and (max-width:418px){
+    .conten{
+        width: 95%;
+       }
+    .Grid{
+        grid-template-columns: repeat(auto-fill,95%);
+    }
+ }

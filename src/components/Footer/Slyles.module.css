@@ -1,0 +1,91 @@
+.Footer{
+    border-top: 1.5px solid #4444;
+    width: 100%; 
+    margin: 0;
+    padding: 0;
+
+}
+.grupo1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+    padding: 45px 0;
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo h1 {
+    display: block;
+    font-size: 1.9rem;
+    color: #e23d3db4;
+}
+
+.logo span{
+    color: #fff;
+}
+
+.box h2 {
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.box p {
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.redSocial  a {
+    padding: 10px;
+    line-height: 45px;
+    margin-right: 10px;
+    background-color: #110;
+    transition: .5s;
+}
+
+.redSocial a:hover{
+    color: rgb(209, 84, 84);
+}
+
+.grupo2 {
+    border-top: 1px solid rgba(51, 51, 51, 0.5);
+    padding: 16px;
+    text-align: center;
+}
+
+.grupo2 small {
+     font-size: 14px;
+     padding-right: 40px;
+}
+
+
+@media screen and (max-width:800px){
+    .grupo1{
+        width: 80%;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+        padding: 15px 0;
+    }
+  .box h2 {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    
+    .logo{
+        width: auto;
+        font-size: 1rem;
+        
+    }
+
+    .grupo2 small {
+        font-size: 12px;
+        padding: 0;
+   }
+ }

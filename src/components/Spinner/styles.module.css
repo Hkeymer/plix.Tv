@@ -1,0 +1,31 @@
+.conten{
+    background-color: transparent;
+}
+
+.Spiner{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    color: brown;
+}
+
+.Spiner span {
+    font-size: 5rem;
+    padding: 0;  
+}
+
+.Spiner h1{
+    padding: 0;
+    margin: 0;
+    text-align: start;
+}
+
+.spinn {
+    animation: spi 1s linear infinite;
+}
+
+@keyframes spi {
+    to {
+        transform: rotate(360deg);
+    }
+}

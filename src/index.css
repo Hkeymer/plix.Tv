@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #111;
+  color: #fff;
+  /* background-color: #aaaa;
+  color: #111; */
+}
+
+code {
+  font-family:  
+  'Courier New',
+    monospace;
+}
+
+
+a{
+  text-decoration: none;
+  color: #aaa;
+}

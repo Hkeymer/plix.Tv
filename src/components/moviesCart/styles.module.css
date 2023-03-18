@@ -1,0 +1,50 @@
+ .conten{
+    position: relative;
+
+}
+
+.poster{
+    margin: 0;
+    padding: 0;
+    height: 310px;
+    width: 100%;
+    background-color: #9999;
+}
+
+.conten:hover .poster {
+    opacity: 0.6;
+    border: 2px solid #fff ;
+}
+
+i{
+    position: absolute;
+    display: none;
+    font-size: 3.5rem;
+    left: 37%;
+    bottom: 40%;
+    color: #fff;
+}
+
+.conten:hover i{
+    display: flex;
+}
+
+.vote{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    color: rgb(255, 140, 0);
+}
+
+
+
+
+@media screen and (max-width:609px){
+    
+   .poster{
+    height: auto;
+     width: 100%;
+     margin-bottom: 10px;
+   }
+  
+  }  
